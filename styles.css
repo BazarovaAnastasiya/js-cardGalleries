@@ -1,11 +1,68 @@
-@import url('https://fonts.googleapis.com/css?family=Muli&display=swap'); 
 
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: 'Muli', sans-serif;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1px;
+  color: #fff;
   overflow: hidden;
   margin: 0;
+  background-color:#375e5e;
+}
+.container{
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 125px 0;
+}
+.slide{
+  height: 80vh;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin: 15px;
+  cursor: pointer;
+  flex: 1;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  transition: all .5s ease-in;
+  -webkit-transition: all .5s ease-in;
+  -moz-transition: all .5s ease-in;
+  -ms-transition: all .5s ease-in;
+  -o-transition: all .5s ease-in;
+}
+.slide h3 {
+  position:absolute;
+  bottom: 20px;
+  left:20px;
+  opacity: 0;
+ height: 0;
+}
+.slide.active {
+  flex: 10;
+  border: 25px solid;
+  border-radius:2px;
+  -webkit-border-radius:2px;
+  -moz-border-radius:2px;
+  -ms-border-radius:2px;
+  -o-border-radius:2px;
+}
+.slide.active h3{
+ font-size: 45px;
+ color: blanchedalmond;
+ opacity: 1;
+ height: 45px;
+ transition: all .7s linear .5s;
+ -webkit-transition: all .7s linear .5s;
+ -moz-transition: all .7s linear .5s;
+ -ms-transition: all .7s linear .5s;
+ -o-transition: all .7s linear .5s;
 }
