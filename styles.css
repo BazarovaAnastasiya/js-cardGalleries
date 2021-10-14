@@ -9,7 +9,7 @@ body {
   color: #fff;
   overflow: hidden;
   margin: 0;
-  background-color:#375e5e;
+  background-color:#020a0a;
 }
 .container{
   width: 90%;
@@ -29,6 +29,7 @@ body {
   margin: 15px;
   cursor: pointer;
   flex: 1;
+    border: .2px solid;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -48,16 +49,16 @@ body {
 }
 .slide.active {
   flex: 10;
-  border: 25px solid;
-  border-radius:2px;
-  -webkit-border-radius:2px;
-  -moz-border-radius:2px;
-  -ms-border-radius:2px;
-  -o-border-radius:2px;
+  border: 1 solid;
+  border-radius:30px;
+  -webkit-border-radius:30px;
+  -moz-border-radius:30px;
+  -ms-border-radius:30px;
+  -o-border-radius:30px;
 }
 .slide.active h3{
  font-size: 45px;
- color: blanchedalmond;
+ color: #fff;
  opacity: 1;
  height: 45px;
  transition: all .7s linear .5s;
