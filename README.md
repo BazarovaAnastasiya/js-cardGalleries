@@ -1,2 +1,1 @@
-"# js-cardGalleries" 
-"# js-cardGalleries" 
+https://bazarovaanastasiya.github.io/js-cardGalleries/
